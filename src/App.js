@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className='container'>
-      <h1 className='title'>Search Engine...</h1>
+      <h1 className='title'>Search Engine 🚀...</h1>
 
       <input type="search" className='input' onChange={handleQuery} placeholder=' Enter search text... ' />
       <div className='card-list'>
@@ -42,7 +42,7 @@ function App() {
       </div>
       <div className='card-container path-card'>
         <h3 className='space'>Path 👉🏿  {pathFound ? `obj.${pathFound}` : 'Oouch! Try again!! '}</h3>
-        {pathFound ? <p>Path found 🚀 ✅</p> : <p>You haven't found a path ❎</p>}
+        {pathFound ? <p>Path found  ✅</p> : <p>You haven't found a path ❎</p>}
       </div>
     </div>
 
